@@ -41,5 +41,6 @@ public class AuthenticatorTest {
 	    //得到一个身份集合，其包含了Realm验证成功的身份信息  
 	    PrincipalCollection principalCollection = subject.getPrincipals();  
 	    Assert.assertEquals(2, principalCollection.asList().size());  
-	}   
+	} 
+	
 }
